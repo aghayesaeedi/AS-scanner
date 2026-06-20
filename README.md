@@ -1,32 +1,36 @@
-# V2ray IP Scanner & Config Generator 🚀
+# V2Ray Clean IP Scanner & Config Generator
+[English](#english) | [فارسی](#فارسی)
 
-A practical and fast Python tool to find clean IPs and automatically generate V2ray configs.
+---
 
-## ✨ Features
+<a id="english"></a>
+## 🇬🇧 English
 
-*   **Two Operational Modes:**
-    1.  **Config Scanner & Generator:** Takes your config (VMess, VLESS, Trojan), automatically extracts the port, finds a working/clean IP, and generates a new working config.
-    2.  **Basic IP Scanner:** Simple IP scanning by just taking your desired port.
-*   **Multi-Protocol Support:** Fully compatible with VMess, VLESS, and Trojan links.
-*   **Clean Console UI:** Automatically clears the console environment after each operation for a better user experience.
-*   **Auto-Save Results:** Saves clean IPs and generated configs into separate text files (`clean_ips.txt` and `clean_configs.txt`).
+A fast and simple Python script to scan for clean IPs and automatically generate new V2Ray configs (VMess, VLESS, Trojan).
 
-## 📥 How to Use
+### Features
+*   **Config Scanner:** Extracts ports automatically from VMess/VLESS/Trojan configs.
+*   **IP Scanner:** Scans IPs to find clean ones based on your specified port.
+*   **Auto Generator:** Creates new configs using the found clean IPs.
 
-### Method 1: Using the Executable (Recommended for Windows Users)
-1. Go to the [Releases](../../releases) section on the right side of this repository.
-2. Download the latest `.exe` file.
-3. Run the application and select your desired option from the menu.
+### How to Use
+1. Download the `.exe` file from the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases) section.
+2. Run the executable file.
+3. Choose your desired option from the menu.
 
-### Method 2: Running the Python Source Code
-If you prefer to run the script directly, make sure you have Python installed, then install the required dependencies:
-```bash
-pip install pyfiglet requests
-Then, run the script:
-bash
-python scanner.py
+---
 
-## ⚠️ Disclaimer
-This tool is developed solely for the purpose of finding IPs with good latency/ping.
+<a id="فارسی"></a>
+## 🇮🇷 فارسی
 
-!
+یک اسکریپت ساده و سریع پایتون برای اسکن آی‌پی‌های تمیز و ساخت خودکار کانفیگ‌های جدید V2Ray (VMess, VLESS, Trojan).
+
+### ویژگی‌ها
+*   **اسکنر کانفیگ:** استخراج خودکار پورت از کانفیگ‌های VMess/VLESS/Trojan.
+*   **اسکنر آی‌پی:** اسکن آی‌پی‌ها برای پیدا کردن آی‌پی تمیز بر اساس پورت مورد نظر شما.
+*   **سازنده خودکار:** ساخت کانفیگ‌های جدید با استفاده از آی‌پی‌های تمیز پیدا شده.
+
+### نحوه استفاده
+۱. فایل اجرایی `.exe` را از بخش [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/releases) دانلود کنید.
+۲. فایل را اجرا کنید.
+۳. از منوی نمایش داده شده، گزینه مورد نظر خود را انتخاب کنید.
